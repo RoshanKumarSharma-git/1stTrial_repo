@@ -1,0 +1,54 @@
+/* const a=7;          //====================     Initial state
+let b=8;        // change 1  =======>       
+function(){   // change 2 
+};
+             ====  change 3 after deleting function  
+
+
+
+
+      version control  ====>     keep a track how your file changes over a period of time   
+       GIT is a tool is used to  version control */
+/* steps for git command
+
+1>   intilize git                      --------------
+    this is the commandto initilize  =>|  git init  |
+                                       |------------|
+     initilize empty git repositry 
+
+2>  Local changes -------to------>    Staged changes
+            to add command  for single file ========>   ||||git add filepath ||||
+         then convert the file path and keep on track ..... this is for multiple file to be tracked  ===>  |||| git add.|||||
+
+3>  Commit 
+ git commit -m 'message'
+
+
+gti config--global username 'yourname'
+
+  git config--global user.email'Your email'
+
+  
+     */
+
+
+      =====================================Remote server=======================================(it is free     )
+
+**********************************************************************************************************************************
+1>>
+Git Branch ==  >>  Check existing branch
+2>>
+command =  git branch "branchname" ========>    to create a new branch
+3>>
+git checkout "branchname"  ===> to switch branch
+
+4>>
+
+To combine command no. 2 and 3 =====>   git checkout -b "branchname"
+
+
++++==================================>>Merge<<=====================================
+
+1> git checkout main
+2> git merge origin/Sec.branchname
+3> git push
