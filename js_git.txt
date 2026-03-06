@@ -32,7 +32,16 @@ gti config--global username 'yourname'
      */
 
 
-      =                     ====================================Remote server=======================================(it is free     )
+      =====================================Remote server=======================================(it is free     )
 
+**********************************************************************************************************************************
+1>>
+Git Branch ==  >>  Check existing branch
+2>>
+command =  git branch "branchname" ========>    to create a new branch
+3>>
+git checkout "branchname"  ===> to switch branch
 
+4>>
 
+To combine command no. 2 and 3 =====>   git checkout -b "branchname"
