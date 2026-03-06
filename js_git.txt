@@ -4,6 +4,10 @@ function(){   // change 2
 };
              ====  change 3 after deleting function  
 
+// git initilization===>   git init
+// to add new file ==>   gitt add filepath
+// to commit  ====>   git commit -m 'message'
+
 
 
 
